@@ -6,13 +6,16 @@ while i <= row:
     while j <= row - i:
         print(' ', end='')
         j += 1
-        j = 1
+    
+    j = 1
     while j <= i:
         print('%c' % (a + j), end='')
         j += 1
-        j = i - 1
+    
+    j = i - 1
     while j >= 1:
         print('%c' % (a + j), end='')
         j -= 1
-        print()
+    
+    print()
     i += 1
